@@ -10,5 +10,5 @@ fn main() {
     number[1] = 100;
     number[3] = 400;
 
-    println!(":number?");
+    println!("{number:?}");
 }
