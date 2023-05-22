@@ -1,12 +1,9 @@
 fn main() {
-    let mut i = 1;
 
-    let 'NAMA: angka = for i in 1..15 {
-        i += 1;
-
+    'nama: for i in 1..15 {
         if i > 10 {
-            break 'NAMA;
+            break 'nama;
         }
+    println!("{i}");
     };
-    println!("{}", angka);
 }
