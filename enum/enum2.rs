@@ -1,7 +1,7 @@
-enum Food{
+enum Food {
     Bakso,
     MieAyam,
-    Martabak
+    Martabak,
 }
 
 fn main() {
@@ -10,12 +10,12 @@ fn main() {
     //match untuk seleksi
     match favorit {
         Food::Bakso => {
-            println!("best makanan paporite");
-        },
-            Food::MieAyam => {
+            println!("best makanan faporite");
+        }
+        Food::MieAyam => {
             println!("wow mie ayam");
-        },
-            Food::Martabak => {
+        }
+        Food::Martabak => {
             println!("makanan enak");
         }
     }

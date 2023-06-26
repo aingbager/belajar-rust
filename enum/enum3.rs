@@ -1,15 +1,21 @@
-enum Food {
-  PenyetanTerangBulan,
-  PizzaNanas,
+enum Buahbuahan {
+    Apel,
+    Nanas,
+    Anggur,
 }
 
 fn main() {
-let makanan_favorit: Food = Food::PenyetanTerangBulan;
-match makanan_favorit {
-      Food::PenyetanTerangBulan => {
-          println!("your food taste is quite ... unique");
-},
-Food::PizzaNanas => {
-          println!("it's morally wrong to have pineaple on top
-of pizza");
+    let hoby: Buahbuahan = Buahbuahan::Anggur;
+
+    match hoby {
+        Buahbuahan::Apel => {
+            println!("apel yang enak");
+        }
+        Buahbuahan::Nanas => {
+            println!("nanas yang asam");
+        }
+        Buahbuahan::Anggur => {
+            println!("anggur yang paling enak");
+        }
+    }
 }
