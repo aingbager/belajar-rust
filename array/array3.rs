@@ -1,7 +1,11 @@
 fn main() {
-    let aray1 = [1, 2, 3, 4, 5, 8, 10];
+    //belajar array
+    //
+    let mut angka = [1, 2, 3, 4];
+    println!("{}", angka[3]);
 
-    //melihat size array menggunakan len()
-    let ukuran = aray1.len();
-    println!("array size: {}", ukuran);
+    angka[3] = 88;
+    println!("sesudah diubah {}", angka[3]);
+
+    println!("panjang array {:?}", angka);
 }
