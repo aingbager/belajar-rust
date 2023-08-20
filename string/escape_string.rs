@@ -1,5 +1,5 @@
 fn main() {
     //belajar escape dengan \
-    let name = "udin \ surudin";
+    let name = r"udin \ surudin";
     println!("name: {}",name);
 }
