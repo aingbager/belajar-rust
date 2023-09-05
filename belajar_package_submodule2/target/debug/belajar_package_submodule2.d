@@ -1,0 +1,1 @@
+/home/aka/belajar-program/rust/belajar_package_submodule2/target/debug/belajar_package_submodule2: /home/aka/belajar-program/rust/belajar_package_submodule2/src/main.rs /home/aka/belajar-program/rust/belajar_package_submodule2/src/messaging.rs
