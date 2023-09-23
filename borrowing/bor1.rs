@@ -8,10 +8,9 @@ fn main() {
 
     //borrowing &mut
 
-    let mut a = String::from("world");
     let mut b = &mut a;
     *b = String::from("dunia"); //tambahkan * untuk mengambil nilainya
 
-    println!("{:?}", a);
+    println!("{}", a);
     println!("{:?}", b);
 }
