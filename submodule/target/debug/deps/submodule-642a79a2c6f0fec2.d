@@ -1,0 +1,8 @@
+/home/aka/belajar-program/rust/submodule/target/debug/deps/submodule-642a79a2c6f0fec2.rmeta: src/main.rs src/my_module/mod.rs src/my_module/sub_module1.rs src/my_module/sub_module2.rs
+
+/home/aka/belajar-program/rust/submodule/target/debug/deps/submodule-642a79a2c6f0fec2.d: src/main.rs src/my_module/mod.rs src/my_module/sub_module1.rs src/my_module/sub_module2.rs
+
+src/main.rs:
+src/my_module/mod.rs:
+src/my_module/sub_module1.rs:
+src/my_module/sub_module2.rs:
