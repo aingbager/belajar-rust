@@ -1,8 +1,7 @@
 fn main() {
     //belajar if
-    let angka = 7;
-
-    if angka == 7 {
-        println!("ini angka 7");
+    let angka = 5;
+    if angka == 5 {
+        println!("ya ini angka 5");
     }
 }
